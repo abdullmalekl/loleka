@@ -1,0 +1,108 @@
+#navBar{
+    font-family:'Times New Roman', Times, serif !important;
+    font-size: 20px;
+    width:100% !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    
+    background-color: #282c34 !important;
+  }
+#home{
+    color: white !important;
+    font-size: 1.6rem;
+}
+#home:hover{
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
+    text-decoration-style: solid !important;
+    text-decoration-line:underline;
+    text-decoration: underline;
+}
+#products{
+    color: white !important;
+}
+#products:hover{
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
+    text-decoration-style: solid !important;
+    text-decoration-line:underline;
+    text-decoration: underline;
+}
+#about{
+    color: white !important;
+}
+#about:hover{
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
+    text-decoration-style: solid !important;
+    text-decoration-line:underline;
+    text-decoration: underline;
+}
+#news{
+    color: white !important;
+}
+#news:hover{
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
+    text-decoration-style: solid !important;
+    text-decoration-line:underline;
+    text-decoration: underline;
+}
+#faq{
+    color: white !important;
+}
+#faq:hover{
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
+    text-decoration-style: solid !important;
+    text-decoration-line:underline;
+    text-decoration: underline;
+}
+#contact{
+    color: white !important;
+}
+#contact:hover{
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
+    text-decoration-style: solid !important;
+    text-decoration-line:underline;
+    text-decoration: underline;
+}
+#language{
+    color: white !important;
+}
+#language:hover{
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
+    text-decoration-style: solid !important;
+    text-decoration-line:underline;
+    text-decoration: underline;
+}
+#search{
+    width: 34vw;
+    height: 42px;
+    /* margin-right: 60px !important;
+     */
+}
+#search:hover{
+    border:3px solid #61DBFB;
+}
+#sbutton{
+    color: white;
+    height: 42px;
+    width: 110px;
+    border: 3px solid white;
+    border-radius: 24px;
+    background-color: rgba(0,0,0,0.40)  !important   ;
+    margin-right: 18px;
+}
+#sbutton:hover{
+    padding:4px;
+    color:#61DBFB;
+    border:3px solid #61DBFB;
+}
+#toggle{
+    background-color: white !important;
+    
+    
+}

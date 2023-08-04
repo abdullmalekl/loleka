@@ -1,0 +1,392 @@
+/* slide 1 */
+.h1s1{
+   
+    position: absolute;
+    top: 50%;
+    margin-left: 40%;
+    justify-content: start;
+   
+    font-style: bold;
+    /* box-shadow: 0 0 1vh 0.3vw white; */
+    max-width: 60%;
+color:black;
+}
+.s1h5{
+    /* box-shadow: 0 0 1vh 0.3vw white; */
+    
+    position: absolute;
+    top: 69%;
+    display: inline-flex;
+    color: black;
+    min-width: 20%;
+    margin-left: 40%;
+}
+
+.s1btn1{
+    text-decoration: none;
+    
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+    display: flex;
+    position: absolute;
+    top: 82%;
+    justify-content: center;
+    align-items: center;  
+    border: 3px solid white ;
+    border-radius:2cm;
+    width: 12vw;
+    height: 7.2vh;
+    margin-left: 72%;
+    box-shadow: 0 0 1vh 0.3vw white;
+}
+.s1btn1:hover{
+    cursor: pointer;
+background-color: rgba(0, 0, 0 , 0.33);
+color: white;
+border: 4px solid rgb(0, 0, 0);
+box-shadow: 0 0 1vh 0.3vw #61DBFB;
+
+}
+.s1btn2{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+    display: flex;
+    position: absolute;
+    min-width: 5%;
+    top: 82%;
+    justify-content: center;
+    align-items: center;  
+    border: 3px solid white ;
+    border-radius:2cm;
+    width: 12vw;
+    height: 7.2vh;
+    margin-left: 42%;
+    box-shadow: 0 0 1vh 0.3vw white;
+}
+.s1btn2:hover{
+background-color: rgba(0, 0, 0, 0.33);
+color:white;
+border:  4px solid black;
+box-shadow: 0 0 1vh 0.3vw #61DBFB;
+}
+@media (max-width:420px) {
+    .h1s1{
+   
+        position: absolute;
+        top: 36%;
+        margin-left: 30%;
+        justify-content: start;
+        font-style: bold;
+        /* box-shadow: 0 0 1vh 0.3vw white; */
+        max-width: 90%;
+    color:black;
+    }
+    .s1h5{
+        /* box-shadow: 0 0 1vh 0.3vw white; */
+       
+        position: absolute;
+        top: 56%;
+        display: inline-flex;
+        color: black;
+       min-width: 70vw;
+        right: 0%;
+    }
+    
+    .s1btn1{
+        text-decoration: none;
+        
+        font-family:'Times New Roman', Times, serif;
+        color: white;
+        background-color: black;
+        display: flex;
+        position: absolute;
+        top: 78%;
+        justify-content: center;
+        align-items: center;  
+        border: 3px solid white ;
+        border-radius:2cm;
+        width: 24vw;
+        height: 5vh;
+        margin-left: 70%;
+        box-shadow: 0 0 1vh 0.3vw white;
+    }
+    .s1btn2{
+        text-decoration: none;
+        font-family:'Times New Roman', Times, serif;
+        color: white;
+        background-color: black;
+        display: flex;
+        position: absolute;
+        min-width: 5%;
+        top: 78%;
+        justify-content: center;
+        align-items: center;  
+        border: 3px solid white ;
+        border-radius:2cm;
+        width: 24vw;
+        height: 5vh;
+        margin-left: 30%;
+        box-shadow: 0 0 1vh 0.3vw white;
+    }
+    .s1btn2:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+    color:white;
+    border:  4px solid black;
+    box-shadow: 0 0 1vh 0.3vw #61DBFB;
+    }
+}
+
+
+/* s2 */
+.h1s2{
+    position: absolute;
+    top:20%;
+    max-width: 60vw;
+    margin-left: 84px;
+    align-items: center;
+    color:black;
+}
+.s2h5{
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    color: black;
+   max-width: 60vw;
+}
+.s2btn1{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+    display: flex;
+    position: absolute;
+    top: 58%;
+    left: 40%;
+    justify-content: center;
+    align-items: center;  
+    border: 3px solid white ;
+    border-radius:2cm;
+    width: 14vw;
+    height: 7.2vh;
+    
+    box-shadow: 0 0 1vh 0.3vw white;
+}
+.s2btn1:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+    color:white;
+    border:  4px solid black;
+    box-shadow: 0 0 1vh 0.3vw #61DBFB;
+}
+.s2btn2{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+    display: flex;
+    position: absolute;
+    top: 58%;
+    left: 10%;
+    justify-content: center;
+    align-items: center;  
+    border: 3px solid white ;
+    border-radius:2cm;
+    width: 14vw;
+    height: 7.2vh;
+    
+    box-shadow: 0 0 1vh 0.3vw white;
+}
+.s2btn2:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+    color:white;
+    border:  4px solid black;
+    box-shadow: 0 0 1vh 0.3vw #61DBFB;
+}
+@media (max-width:500px){
+    .h1s2{
+        position: absolute;
+        top:14%;
+        left: -12%;
+        max-width: 80vw;
+        align-items: center;
+        color:black;
+    }
+    .s2h5{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        color: black;
+       max-width: 74vw;
+    }
+    .s2btn1{
+        text-decoration: none;
+        font-family:'Times New Roman', Times, serif;
+        color: white;
+        background-color: black;
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 58%;
+        justify-content: center;
+        align-items: center;  
+        border: 3px solid white ;
+        border-radius:2cm;
+        width: 24vw;
+        height: 5.8vh;
+        
+        box-shadow: 0 0 1vh 0.3vw white;
+    }
+    .s2btn2{
+        text-decoration: none;
+        font-family:'Times New Roman', Times, serif;
+        color: white;
+        background-color: black;
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        justify-content: center;
+        align-items: center;  
+        border: 3px solid white ;
+        border-radius:2cm;
+        width: 24vw;
+        height: 5.8vh;
+        
+        box-shadow: 0 0 1vh 0.3vw white;
+    }
+   
+}
+/* slide3 */
+
+.h1s3{
+    position: absolute;
+    top: 52%;
+    left: 6%;
+align-items: center;
+color:white;
+}
+
+
+.s3h5{
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 6.5%;
+    max-width: 50vw;
+    color: white;
+    
+
+}
+
+.s3btn1{
+    text-decoration: none;
+        font-family:'Times New Roman', Times, serif;
+        color: white;
+        background-color: black;
+        display: flex;
+        position: absolute;
+        top: 84%;
+        left: 10%;
+        justify-content: center;
+        align-items: center;  
+        border: 0px solid white ;
+        border-radius:2cm;
+        width: 12vw;
+        height: 7vh;
+        
+        box-shadow: 0 0 1vh 0.3vw #61DBFB;
+}
+.s3btn1:hover{
+    cursor: pointer;
+background-color: rgba(0, 0, 0 , 0.33);
+color: white;
+box-shadow: 0 0 1vh 0.3vw white;
+}
+
+
+.s3btn2{
+    text-decoration: none;
+        font-family:'Times New Roman', Times, serif;
+        color: white;
+        background-color: black;
+        display: flex;
+        position: absolute;
+        top: 84%;
+        left: 40%;
+        justify-content: center;
+        align-items: center;  
+        border: 0px solid white ;
+        border-radius:2cm;
+        width: 12vw;
+        height: 7vh;
+        
+        box-shadow: 0 0 1vh 0.3vw #61DBFB;
+}
+.s3btn2:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0 , 0.33);
+    color: white;
+    box-shadow: 0 0 1vh 0.3vw white;
+/* transform: translateY(2px); */
+}
+@media (max-width:420px){
+    .h1s3{
+
+        position: absolute;
+        top: 52%;
+        left: 6%;
+    align-items: center;
+    color:white;
+    }
+    
+    
+    .s3h5{
+        display: flex;
+        position: absolute;
+        top: 67.5%;
+        left: 6.5%;
+        max-width: 90vw;
+        color: white;
+        
+    
+    }
+    
+    .s3btn1{
+        text-decoration: none;
+            font-family:'Times New Roman', Times, serif;
+            color: white;
+            background-color: black;
+            display: flex;
+            position: absolute;
+            top: 84%;
+            left: 10%;
+            justify-content: center;
+            align-items: center;  
+            border: 0px solid white ;
+            border-radius:2cm;
+            width: 24vw;
+            height: 5vh;
+            
+            box-shadow: 0 0 1vh 0.3vw #61DBFB;
+    }
+    .s3btn2{
+        text-decoration: none;
+            font-family:'Times New Roman', Times, serif;
+            color: white;
+            background-color: black;
+            display: flex;
+            position: absolute;
+            top: 84%;
+            left: 48%;
+            justify-content: center;
+            align-items: center;  
+            border: 0px solid white ;
+            border-radius:2cm;
+            width: 24vw;
+            height: 5vh;
+            
+            box-shadow: 0 0 1vh 0.3vw #61DBFB;
+    }
+}
