@@ -1,0 +1,101 @@
+.ProductsComp{
+    background-color: white;
+}
+
+.header{
+    position: relative;
+    top: 12vh;
+    left: 44%;
+    font-size: 2rem;
+    font-family: underline;
+    border-bottom: 2px solid #61DBFB;
+    max-width: 14.5vw;
+}
+
+.fire{
+    border-radius: 2%;
+    overflow: hidden; 
+    transition: transform .5s ease;
+    position: relative;
+    top: 50%;
+    left:16%;
+    height: 28vh;
+    width: 24vw;
+
+}
+.fire:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+.temp{
+    border-radius: 2%;
+    border: 1px solid black;
+    position: relative;
+    top: 50%;
+    left:8%;
+    height: 28vh;
+    width: 24vw;
+}
+.temp:hover{
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.1);
+}
+.lockCard{
+    border-radius: 2%;
+    border: 1px solid black;
+    position: relative;
+    top: 50%;
+    height: 28vh;
+    width: 24vw;
+}
+.lockCard:hover{
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.1);
+}
+.Cheader1{
+    position: relative;
+    font-size: 1.4rem;
+    font-weight: bold;
+    top: 54%;
+    left: 16%
+}
+.Cbody1{
+    position: relative;
+    font-size: 1rem;
+    max-width: 24vw;
+    top: 50%;
+    left: 16%
+}
+
+.Cheader2{
+    position: relative;
+    font-size: 1.4rem;
+    font-weight: bold;
+    top: 54%;
+    left: 8%
+}
+.Cbody2{
+    position: relative;
+    font-size: 1rem;
+    max-width: 24vw;
+    top: 50%;
+    left: 8%
+}
+
+.Cheader3{
+    position: relative;
+    font-size: 1.4rem;
+    font-weight: bold;
+    top: 54%;
+    
+}
+.Cbody3{
+    position: relative;
+    font-size: 1rem;
+    max-width: 24vw;
+    top: 50%;
+    
+}
