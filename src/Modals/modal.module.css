@@ -1,0 +1,59 @@
+.backDrop{
+    /* z index means u can zoom in z-way 1000 from the real page
+     to  guarnteed the opacity cover all the page */
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 1s ;
+}
+.showBackDrop{
+    opacity: 0.8;
+    
+
+}
+
+.overLay{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    /* this take more value to keep it zoom out more than Backdrop */
+    z-index: 1500;
+    position: absolute;
+    height: 50%;
+    width: 30%;
+    top:80%;
+    left:50%;
+    /* margin-top: -25%; */
+    /* margin-left:  -15%; */
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.90);
+    visibility: hidden;
+}
+.showOverLay{
+    visibility: visible;
+    opacity:1 ;
+    
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: 1px solid black;
+    height: 6vh;
+    width: 3vw;
+    position: absolute;
+    bottom: 48vh;
+    left: 96%;
+    font-weight: bold;
+    border-radius: 20px;
+}
